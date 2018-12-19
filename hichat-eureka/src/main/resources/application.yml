@@ -10,7 +10,7 @@ eureka:
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
-      defaultZone: http://localhost:${server.port}/eureka/
+      defaultZone: http://localhost:8321/eureka/
   instance:
     prefer-ip-address:  true
     ip-address: 127.0.0.1

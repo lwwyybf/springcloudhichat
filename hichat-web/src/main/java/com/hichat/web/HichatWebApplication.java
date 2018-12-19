@@ -19,4 +19,5 @@ public class HichatWebApplication {
         SpringApplication.run(HichatWebApplication.class, args);
     }
 
+
 }

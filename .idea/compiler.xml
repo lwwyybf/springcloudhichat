@@ -10,10 +10,14 @@
         <module name="hichat-eureka" />
         <module name="hichat-mobile" />
         <module name="hichat-provider" />
+        <module name="hichat-test" />
         <module name="hichat-web" />
         <module name="hichat-zuul" />
-        <module name="springcloudhichat" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hichat-test" target="1.5" />
+      <module name="hichattest" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

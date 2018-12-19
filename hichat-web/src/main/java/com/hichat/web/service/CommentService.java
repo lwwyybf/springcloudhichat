@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @FeignClient(value = "hichat-provider",fallback = HystrixCommentHandler.class)
 public interface CommentService {
 
-
     @RequestMapping(value = "/comment/getCommentByEssayId/{id}",method = RequestMethod.POST)
     ReturnResult getCommentByEssayId(@PathVariable(value = "id") Long id, @RequestBody PageInfo pageInfo);
 }

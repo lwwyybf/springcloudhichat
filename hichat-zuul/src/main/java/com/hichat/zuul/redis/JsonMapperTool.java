@@ -56,7 +56,7 @@ public class JsonMapperTool {
 
 	 * @param jsonData json数据
 
-	 * @param  对象中的object类型
+	 * @param  jsonData  beanType
 
 	 * @return
 

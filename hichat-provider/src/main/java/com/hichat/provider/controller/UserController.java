@@ -9,12 +9,16 @@ import com.hichat.provider.service.UserServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.UUID;
+
 @RestController
 @RequestMapping("/user")
 public class UserController {
 
     @Autowired
     private UserServiceImpl userServiceImpl;
+
+
 
 
     /**
@@ -50,9 +54,6 @@ public class UserController {
         ReturnResult result = userServiceImpl.updateUser(user);
         return result;
     }
-
-
-
 
 
 }

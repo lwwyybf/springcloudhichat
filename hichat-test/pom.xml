@@ -4,13 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.hichat.cloud</groupId>
-    <artifactId>springcloud-hichat</artifactId>
-    <packaging>pom</packaging>
+    <groupId>com.hichat.test</groupId>
+    <artifactId>hichat-test</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>hichat-test</module>
-    </modules>
 
 
 </project>
